@@ -1,0 +1,20 @@
+.popupBG {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100svw;
+    height: 100svh;
+    top: 0;
+    left: 0;
+    background:rgba(0, 0, 0, 0.5);
+    z-index: 200;
+    backdrop-filter: blur(4px);
+}
+
+.popup {
+    width: 360px;
+    padding: 20px;
+    background:white;
+}

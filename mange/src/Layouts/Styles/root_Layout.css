@@ -1,0 +1,21 @@
+#root_Layout {
+    width: 100vw;
+    min-height: 100svh;
+    display: flex;
+    flex-direction: column;
+}
+
+#root_Layout .headerWrap{
+    display: block;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index:100;
+}
+
+#root_Layout .bodyWrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 56px;
+}
